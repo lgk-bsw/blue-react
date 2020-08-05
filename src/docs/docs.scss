@@ -1,0 +1,17 @@
+@import "./theme";
+@import "../../dist/style.scss";
+
+@import "~highlight.js/styles/github.css";
+
+.welcome-jumbotron {
+    background-image: linear-gradient(transparent 60%, rgba(0,0,0,.05) 100%);
+
+    .display-1 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: "600";
+    }
+}
+
+.bi {
+    @extend .mb-1;
+}
